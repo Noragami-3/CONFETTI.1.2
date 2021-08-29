@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, 
+    initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>CONFETTY</title>
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/3132/3132746.png" type="image/x-icon"> <!--Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,500&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/glider.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="js/glider.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/efectos.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/footer.js"></script>
+</head>
+<body>
+    <header>
+       <div class="contenedor">
+            <nav class="menu">
+                <a href="#" id="btnAcercaDe">Acerca de</a>
+                <a href="#" id="btnMenu">Precios</a>
+                <a href="#" id="btnGaleria">Estilos</a>
+                <a href="#" id="btnUbicacion">Ubicación</a>
+            </nav>
+            <div class="contenido" id="contenido">
+                <h1 class="nombre"> <span >CONFETTY</span></h1>
+                <h3>BONITO Y BARATO</h3>
+            </div>
+        </div>
+    </header>
+
+    <section class="main">
+    <section class="acerca-de" id="acerca-de">
+        <div class="contenedor">
+        <div class="foto">
+            <img src="img/acerca-de.jpg"width="100" height="300" alt="Imagen restaurante">
+        </div>
+         <article>
+            <h3>Acerca de</h3>
+            <p>Porque en confetti hemos aprendido gracias a nuestros clientes que:
+¡SIEMPRE HAY UNA OCASIÓN<p>
+           
+        </article>
+   
+        </div>
+    </section>
+
+    <section class="menu">
+        <div class="contenedor">
+            <h3 class="titulo" id="platillos"></h3>
+            <div class="contenedorE-menu">
+                <div class="contenedorI-menu">
+                    <article>
+                        <p class="categoria">Precios de piñatas y dulces</p>
+                        <div class="platillo">
+                            <p class="nombre">Piñata miniatura</p>
+                            <p class="precio">Q10.00</p>
+                            <p class="descripcion"></p>
+                        </div>
+                        <div class="platillo">
+                            <p class="nombre">Piñata mini</p>
+                            <p class="precio">Q20.00</p>
+                            <p class="descripcion"></p>
+                        </div>
+                        <div class="platillo">
+                            <p class="nombre">Piñata mini 4 patas</p>
+                            <p class="precio">Q25.00</p>
+                            <p class="descripcion"></p>
+                        </div>
+                        <div class="platillo">
+                            <p class="nombre">Pinañata pequeña</p>
+                            <p class="precio">Q35.00</p>
+                            <p class="descripcion"></p>
+                        </div>
+                    </article>
+                    <article >
+                        <p class="categoria"></p>
+                        <div class="platillo">
+                            <p class="nombre">Piñata grande </p>
+                            <p class="precio">Q50.00</p>
+                            <p class="descripcion"></p>
+                        </div>
+                        <div class="platillo">
+                            <p class="nombre"> Piñata Extragande </p>
+                            <p class="precio">Q120.00</p>
+                            <p class="descripcion"></p>
+                        </div>
+                        <div class="platillo">
+                            <p class="nombre">Bolsa de dulces grande de 10lb</p>
+                            <p class="precio">Q120.00</p>
+                            <p class="descripcion"></p>
+                        </div>
+                        <div class="platillo">
+                            <p class="nombre">Bolsa de dulces mediana </p>
+                            <p class="precio">Q65.00</p>
+                            <p class="descripcion"></p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="galeria" id="galeria">
+        <h3 class="titulo">ESTILOS</h3>
+        <div data-name="Perspective View" class="glider-contain multiple">
+            <div class="glider glider-persp" id="glider-persp">
+              <div><div class="carousel-contenido"><img src="img/1.png"></div></div>
+              <div><div class="carousel-contenido"><img src="img/2.png"></div></div>
+              <div><div class="carousel-contenido"><img src="img/3.png"></div></div>
+              <div><div class="carousel-contenido"><img src="img/4.png"></div></div>
+              <div><div class="carousel-contenido"><img src="img/5.png"></div></div>
+              <div><div class="carousel-contenido"><img src="img/6.png"></div></div>
+              <div><div class="carousel-contenido"><img src="img/7.png"></div></div>
+            </div>
+            <button role="button" aria-label="Previous" class="glider-prev" id="glider-prev-per"><i class="fa fa-chevron-left"></i></i></button>
+            <button role="button" aria-label="Next" class="glider-next" id="glider-next-per"><i class="fa fa-chevron-right"></i></i></button>
+            <div role="tablist" class="dots"></div>
+          </div>
+    </section>
+
+
+
+    <section class="galeria" id="galeria">
+        <h3 class="titulo" style="color: black;">PIÑATAS</h3>
+        <div data-name="Perspective View" class="glider-contain multiple">
+            <div class="glider glider-persp" id="glider-persp">
+              <div><div class="carousel-contenido"><img src="img/8.png"></div></div>
+              <div><div class="carousel-contenido"><img src="img/9.png"></div></div>
+              <div><div class="carousel-contenido"><img src="img/10.png"></div></div>
+               <div><div class="carousel-contenido"><img src="img/11.png" ></div></div>
+                <div><div class="carousel-contenido"><img src="img/12.png"></div></div>
+                 <div><div class="carousel-contenido"><img src="img/13.png"></div></div>
+            </div>
+            <div role="tablist" class="dots"></div>
+          </div>
+    </section>
+
+    <section class="ubicacion">
+        <div class="contenedor">
+            <h3 class="titulo" id="ubicacion">Ubicación</h3>
+            <div class="direccion">
+                <p class="calle">LUGAR<br>MANZANA 7 LOTE 26 TIERRA NUEVA 1</p>
+                <p class="telefono">35467161</p>
+                <p class="email">mirletlariosgmail.com</p
+            </div>
+            <div class="horario">
+                <h4>Horarios</h4>
+                <p class="entre-semana">Luneas - Domingo <br> 10:00am a 9:00pm</p>
+            </div>
+        </div>
+    </section>
+    <section class="mapa">
+       
+        </div>
+    </section>
+<footer>
+   <div class="contenedor">
+        <p>Derechos reservados - DEREK GARCIA</p>
+        <div class="redes-sociales">
+
+        </div>
+   </div>
+</footer>
+<script src="https://kit.fontawesome.com/85800562eb.js" crossorigin="anonymous"></script>
+</body>
+</html>
